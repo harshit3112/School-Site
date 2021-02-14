@@ -1,0 +1,7 @@
+Django==2.2.5
+django-phonenumber-field
+phonenumbers
+jsonfield
+whitenoise==1.0.4
+gunicorn==19.1.1
+django-heroku

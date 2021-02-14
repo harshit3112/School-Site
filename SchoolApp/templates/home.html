@@ -1,0 +1,21 @@
+<!--<form class='Product-Form' method='get'>-->
+<!--    <button type="submit" class="btn" onclick="location.href='{% url 'getTeachers' %}'">List Teachers</button>-->
+<!--</form>-->
+
+<!-- <button type="submit" value={{excel_path}} onclick="location.href='{% url 'getTeachers' %}'" name='mybtn2'>Get Teachers</button>-->
+<a class="btn btn-sm btn-info" href="{% url 'getTeachers' %}">Get Teachers</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'getStudents' %}">Get Students</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'getClassrooms' %}">Get Classrooms</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'getSubjects' %}">Get Subjects</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'getStudentPOCs' %}">Get StudentPOCs</a><br>
+<br>
+<a class="btn btn-sm btn-info" href="{% url 'createTeacher' %}">Create Teacher</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'createStudent' %}">Create Student</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'createClassroom' %}">Create Classroom</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'createSubject' %}">Create Subject</a><br>
+<br>
+<a class="btn btn-sm btn-info" href="{% url 'deleteTeachers' %}">Delete Teachers</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'deleteStudents' %}">Delete Students</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'deleteClassrooms' %}">Delete Classrooms</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'deleteSubjects' %}">Delete Subjects</a><br>
+<a class="btn btn-sm btn-info" href="{% url 'deleteStudentPOCs' %}">Delete StudentPOCs</a><br>

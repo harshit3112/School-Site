@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+ 
+{% block title %}School Records{% endblock title %}
+ 
+{% block content %}
+ <div class="col-md-12" align="center">
+        <h4>School Records</h4>
+<!--        <span><a href="/addnew" class="btn btn-primary">Add New Record</a></span>-->
+        <span><a href="/getStudents" class="btn btn-primary">Students</a></span>
+        <span><a href="/getTeachers" class="btn btn-primary">Teachers</a></span>
+        <span><a href="/getClassrooms" class="btn btn-primary">Classrooms</a></span>
+        <span><a href="/getSubjects" class="btn btn-primary">Subjects</a></span>
+        <span><a href="/getStudentTeacherAssignment" class="btn btn-primary">Student Teacher Assignment</a></span>
+    </div>
+{% endblock content %}
